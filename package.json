@@ -11,6 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "compression": "^1.4.3",
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "gulp": "^3.8.11",
+    "gulp-jade": "^1.0.0"
   }
 }
