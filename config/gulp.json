@@ -11,6 +11,7 @@
       "src/css/**/*.sass"
     ],
     "build": "public/css",
-    "watch": "src/css/**/*.sass"
+    "watch": "src/css/**/*.sass",
+    "includePaths": []
   }
 }
