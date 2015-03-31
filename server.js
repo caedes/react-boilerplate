@@ -3,9 +3,9 @@ var express = require('express');
 var compression = require('compression');
 var app = express();
 
-var maxAge = 7 * 24 * 3600; // 1 week
+var config = require('./config/server.json');
 
 app.use(compression());
-app.use(express.static('public', { maxAge: maxAge }));
+app.use(express.static('public', { maxAge: config.maxAge }));
 
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT || config.port);
