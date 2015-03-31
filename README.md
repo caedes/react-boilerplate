@@ -6,6 +6,8 @@
 * [x] [Jade](http://jade-lang.com/) template engine build with
   [Gulp](http://gulpjs.com/)
 * [x] [LiveReload](http://livereload.com/) all assets
+* [x] [Environment-configuration](http://12factor.net/config)-ready
+  with [dotenv](https://github.com/motdotla/dotenv)
 
 ## Getting Started
 
