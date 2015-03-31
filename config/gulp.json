@@ -1,6 +1,16 @@
 {
-  "build": "public",
-  "jade": [
-    "src/**/*.jade"
-  ]
+  "jade": {
+    "src": [
+      "src/**/*.jade"
+    ],
+    "build": "public",
+    "watch": "src/**/*.jade"
+  },
+  "sass": {
+    "src": [
+      "src/css/**/*.sass"
+    ],
+    "build": "public/css",
+    "watch": "src/css/**/*.sass"
+  }
 }
