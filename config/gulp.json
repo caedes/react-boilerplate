@@ -13,5 +13,13 @@
     "build": "public/css",
     "watch": "src/css/**/*.sass",
     "includePaths": []
+  },
+  "browserify": {
+    "src": [
+      "src/js/"
+    ],
+    "scripts" : "**/*.js",
+    "extname": ".bundle.js",
+    "build": "public/js"
   }
 }
