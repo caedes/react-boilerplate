@@ -35,29 +35,3 @@ npm start
 ```shell
 gulp build
 ```
-
-## Sass Tools
-
-1. Install dependencies with [Bower](http://bower.io/):
-
-  ```shell
-  bower install -S bourbon
-  ```
-
-2. Link resources in `config/gulp.json` near:
-
-  ```json
-  {
-    "sass": {
-      "includePaths": [
-        "bower_components/bourbon/app/assets/stylesheets"
-      ]
-    }
-  }
-  ```
-
-3. Import your libraries into `main.sass`:
-
-  ```sass
-  @import "bourbon"
-  ```
